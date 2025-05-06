@@ -1,0 +1,5 @@
+# Modules folder
+/node_modules
+
+# Secrets
+*.env

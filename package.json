@@ -1,0 +1,23 @@
+{
+  "name": "postit-api",
+  "version": "1.0.0",
+  "description": "PostIt is an open-source API that lets users publish content to multiple social media platforms (like Twitter/X, Facebook, LinkedIn, Instagram, etc.) with a single API call. Simplify your social media automation and cross-posting with one unified interface.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
